@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../MainSlide/MainSlide.scss';
 import { withRouter } from 'react-router-dom';
-import { API } from '../../../config';
+// import { API } from '../../../config';
 
 class MainSlide extends Component {
   constructor(props) {

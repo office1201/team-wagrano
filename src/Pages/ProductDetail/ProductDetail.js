@@ -3,8 +3,7 @@ import Photos from './Components/Photos/Photos';
 import Description from './Components/Description/Description';
 import Nav from '../../Component/Nav/Nav';
 import '../ProductDetail/ProductDetail.scss';
-import '../../Styles/common.scss';
-import '../../Styles/reset.scss';
+import '../../styles/common.scss';
 
 class ProductDetail extends Component {
   render() {
