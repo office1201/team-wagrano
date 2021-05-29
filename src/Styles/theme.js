@@ -6,6 +6,11 @@ export const flexSet = (justifyContent, alignItems) => css`
   align-items: ${alignItems};
 `;
 
+export const animationDuration = () =>
+  css`
+    transition: all 300ms linear;
+  `;
+
 const Theme = {
   background: '#FFFEFC',
   white: '#FFFFFF',
