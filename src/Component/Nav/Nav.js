@@ -39,10 +39,11 @@ const Navbar = styled.section`
   position: fixed;
   width: 100%;
   height: 68px;
+  top: 0px;
   padding: 0 50px;
   border-bottom: 1px solid #eee;
   background: white;
-  z-index: 1;
+  z-index: 10;
 
   img {
     width: 152px;
